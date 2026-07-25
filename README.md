@@ -80,7 +80,7 @@ g++ main.cpp -o fractal_studio.exe -I"C:\SFML\include" -L"C:\SFML\lib" -lsfml-gr
    sudo dnf install SFML-devel
    ```
    *(Если у вас Ubuntu, Linux Mint или Debian, то команда будет: `sudo apt install libsfml-dev`).*
-2. Компилируем (собираем) наш исходный код в готовую программу:
+2. Компилируем (собираем) наш скачанный проект в готовую программу:
    ```bash
    g++ main.cpp -o fractal_studio -lsfml-graphics -lsfml-window -lsfml-system
    ```
@@ -99,7 +99,7 @@ g++ main.cpp -o fractal_studio.exe -I"C:\SFML\include" -L"C:\SFML\lib" -lsfml-gr
    ```bash
    brew install sfml
    ```
-2. Скомпилируйте проект с помощью стандартного компилятора Clang, указав пути, куда Homebrew сохранил файлы:
+2. Скомпилируйте скачанный  проект с помощью стандартного компилятора Clang, указав пути, куда Homebrew сохранил файлы:
    ```bash
    clang++ main.cpp -o fractal_studio -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
    ```
